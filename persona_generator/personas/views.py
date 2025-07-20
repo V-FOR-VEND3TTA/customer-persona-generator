@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.template.loader import get_template
 from .forms import CustomerPersonaForm
 from xhtml2pdf import pisa
 from io import BytesIO
